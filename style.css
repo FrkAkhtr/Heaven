@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    gap: 16px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
