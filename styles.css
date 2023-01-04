@@ -15,7 +15,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 16px;
+    padding: 10px;
     background-color: #4d774e;
     position: fixed;
     width: 100%;
@@ -57,12 +57,14 @@ ul a:hover {
     background-position: center;
     background-size: cover; */
     background: linear-gradient(60deg, #164a41, #9dc88d);
-    padding: 150px;
+    /* padding: 150px; */
+    height: 500px;
     color: white;
+    border-bottom: #f1b24a 4px solid;
 }
 
 .hero-container {
-    display: flex;
+    display: flex;    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -86,7 +88,7 @@ ul a:hover {
 }
 
 .A {
-    margin-top: 20pxf;
+    
     padding: 10px 40px;
     font-size: 20px;
     font-family: 'Bebas Neue', sans-serif;
@@ -101,4 +103,49 @@ ul a:hover {
     color: black;
     border-color: black;
     transition: 0.5s;
+}
+
+.team {
+    background-color: #9dc88d;
+}
+
+.team-text {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    padding-top: 0%;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.img {
+    border: #f1b24a 4px solid;
+    border-radius: 20px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.info-subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
